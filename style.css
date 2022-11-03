@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para automatizar*/
+}
+body {
+    background-image: linear-gradient(rgb(203, 203, 204), rgb(109, 107, 107));
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.space-between{
+    justify-content: space-between;
+    margin-left: 11px;
+}
+
+table {
+    width: 100%;
+    margin: 12px;
+    text-align: center;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /*uni as bordas*/
+    padding: 4px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn_criar { 
+    color: black;
+ 
+}
+
+#btn_criar a{ 
+    color: rgb(107, 11, 11);
+    
+}
+
+#busca {
+    height: 26px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+#campo_pesquisa {
+    margin: 0 12px;
+    
+}
+
+#btn_pesquisa {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: none;
+    margin-right: 10px;
+}
+
+#delete {
+    color: brown;
+}
+
+#btn_edit {
+    text-decoration: none;
+    color: green;
+}
+
